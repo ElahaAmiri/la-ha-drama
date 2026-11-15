@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LA-HA Drama</title>
+
+    <link rel="stylesheet" href="stylesheet.css">
+    <link rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+</head>
+
+<body>
+
+<div class="layout">
+
+    <!-- SIDEBAR -->
+    <aside class="sidebar">
+
+        <h2 class="laha">LA-HA Drama</h2>
+
+        <ul class="links">
+            <li class="active">
+                <i class="fa-solid fa-table-columns"></i>
+                <a href="#">Dashboard</a>
+            </li>
+
+            <li>
+                <i class="fa-regular fa-heart"></i>
+                <a href="#">Favorites</a>
+            </li>
+
+            <li>
+                <i class="fa-solid fa-layer-group"></i>
+                <a href="#">Collection</a>
+            </li>
+
+            <li>
+                <i class="fa-solid fa-sliders"></i>
+                <a href="#">Settings</a>
+            </li>
+
+            <li>
+                <i class="fa-regular fa-circle-question"></i>
+                <a href="#">About</a>
+            </li>
+        </ul>
+
+        <div class="endside">
+            <div>
+                <span>Watched</span>
+                <strong>205</strong>
+            </div>
+
+            <div>
+                <span>Favorites</span>
+                <strong>16</strong>
+            </div>
+
+            <button type="button">Reset!</button>
+        </div>
+
+    </aside>
+
+
+    <!-- MAIN CONTENT -->
+    <main class="main-content">
+
+        <!-- TOP NAVIGATION -->
+        <header class="topbar">
+
+            <nav class="nav">
+                <ul>
+                    <li>New</li>
+                    <li>Dramas</li>
+                    <li>Movies</li>
+                    <li>TV Shows</li>
+                </ul>
+            </nav>
+
+            <div class="search">
+                <i class="fa-solid fa-magnifying-glass"></i>
+                <input type="text"
+                       placeholder="Search your favorites...">
+            </div>
+
+        </header>
+
+
+        <!-- FEATURED MOVIE -->
+        <section class="featured">
+
+            <div class="featured-image">
+                <img src="images/Love In Disguise.jpg"
+                     alt="Love In Disguise">
+            </div>
+
+            <div class="featured-info">
+
+                <span class="featured-label">FEATURED DRAMA</span>
+
+                <h1>Love In Disguise</h1>
+
+                <div class="rating">
+                    <i class="fa-solid fa-star"></i>
+                    9.9 / 10
+                </div>
+
+                <p>
+                    A Decade Waiting for YOU
+                </p>
+
+                <div class="featured-actions">
+                    <button class="watch-btn" type="button">
+                        <i class="fa-solid fa-play"></i>
+                        Watch Now
+                    </button>
+
+                    <button class="favorite-btn" type="button"
+                            aria-label="Add to favorites">
+                        <i class="fa-regular fa-heart"></i>
+                    </button>
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- TRENDING THIS WEEK -->
+        <section class="movie-section">
+
+            <div class="section-heading">
+                <div>
+                    <h2>Trending This Week</h2>
+                    <p>Popular dramas and movies</p>
+                </div>
+
+                <a href="#">View All</a>
+            </div>
+
+            <div class="movie-grid">
+
+                <article class="movie-card">
+                    <img src="images/100 days of deception kdrama poster.jpg"
+                         alt="100 Days of Deception">
+
+                    <h3>100 Days of Deception</h3>
+                    <p class="movie-meta">2026 · History / Romance / Action</p>
+                    <p class="description">
+                        A drama in 16 episodes, showing a story of the 1930s.
+                    </p>
+                    <div class="movie-bottom">
+                        <span class="rating-small">★ 8.5/10</span>
+                        <span class="status watched">Watched</span>
+                    </div>
+                </article>
+
+
+                <article class="movie-card">
+                    <img src="images/Baymax is now streaming on Disney + HS.jpg"
+                         alt="Baymax">
+
+                    <h3>Baymax</h3>
+                    <p class="movie-meta">2020 · Cartoon / Technology</p>
+                    <p class="description">
+                        A fun story for technology lovers.
+                    </p>
+
+                    <div class="movie-bottom">
+                        <span class="rating-small">★ 8.1/10</span>
+                        <span class="status to-watch">To Watch</span>
+                    </div>
+                </article>
+
+
+                <article class="movie-card">
+                    <img src="images/388928117806255813.jpg"
+                         alt="Drama poster">
+
+                    <h3>Action Drama</h3>
+                    <p class="movie-meta">2023 · Drama / Action</p>
+                    <p class="description">
+                        If you enjoy action scenes, this one is for you.
+                    </p>
+
+                    <div class="movie-bottom">
+                        <span class="rating-small">★ 7.5/10</span>
+                        <span class="status to-watch">To Watch</span>
+                    </div>
+                </article>
+
+
+                <article class="movie-card">
+                    <img src="images/My Bias My Boss Kdrama Poster.jpg"
+                         alt="My Bias My Boss">
+
+                    <h3>My Bias My Boss</h3>
+                    <p class="movie-meta">2026 · History / Romance / Action</p>
+                    <p class="description">
+                        A love triangle between two friends and a fangirl.
+                    </p>
+
+                    <div class="movie-bottom">
+                        <span class="rating-small">★ 7.5/10</span>
+                        <span class="status watched">Watched</span>
+                    </div>
+                </article>
+
+            </div>
+        </section>
+
+
+        <!-- RECENTLY ADDED -->
+        <section class="movie-section">
+
+            <div class="section-heading">
+                <div>
+                    <h2>Recently Added</h2>
+                    <p>Discover the latest additions</p>
+                </div>
+
+                <a href="#">View All</a>
+            </div>
+
+            <div class="movie-grid">
+
+                <article class="movie-card">
+                    <img src="images/All Of Us Are Dead.jpg"
+                         alt="All Of Us Are Dead">
+
+                    <h3>All Of Us Are Dead</h3>
+                    <p class="movie-meta">2024 · Zombie / Action / School</p>
+                    <p class="description">
+                        A thrilling story set in a school.
+                    </p>
+
+                    <div class="movie-bottom">
+                        <span class="rating-small">★ 6.5/10</span>
+                        <span class="status watched">Watched</span>
+                    </div>
+                </article>
+
+
+                <article class="movie-card">
+                    <img src="images/GOAT 2026.jpg"
+                         alt="GOAT">
+
+                    <h3>GOAT</h3>
+                    <p class="movie-meta">2026 · Animation</p>
+                    <p class="description">
+                        A fun film for your free time.
+                    </p>
+
+                    <div class="movie-bottom">
+                        <span class="rating-small">★ 5.5/10</span>
+                        <span class="status to-watch">To Watch</span>
+                    </div>
+                </article>
+
+
+                <article class="movie-card">
+                    <img src="images/470978073556050406.jpg"
+                         alt="Drama poster">
+                         <h3>Romance Drama</h3>
+                    <p class="movie-meta">2025 · Drama / Romance</p>
+                    <p class="description">
+                        A story about unexpected relationships.
+                    </p>
+
+                    <div class="movie-bottom">
+                        <span class="rating-small">★ 7.5/10</span>
+                        <span class="status watched">Watched</span>
+                    </div>
+                </article>
+
+
+                <article class="movie-card">
+                    <img src="images/The Remarried Empress Kdrama Poster.jpg"
+                         alt="The Remarried Empress">
+
+                    <h3>The Remarried Empress</h3>
+                    <p class="movie-meta">2026 · Kingdom / Romance</p>
+                    <p class="description">
+                        If you can't change the situation, change your future.
+                    </p>
+
+                    <div class="movie-bottom">
+                        <span class="rating-small">★ 8.5/10</span>
+                        <span class="status to-watch">To Watch</span>
+                    </div>
+                </article>
+
+            </div>
+        </section>
+
+        <footer>
+            <p>© 2026 LA-HA Drama · Your personal movie space</p>
+        </footer>
+
+    </main>
+</div>
+
+</body>
+</html>
